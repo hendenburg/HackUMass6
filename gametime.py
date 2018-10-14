@@ -1,5 +1,6 @@
 from igdb_api_python.igdb import igdb
 import sys
+import random
 
 igdb = igdb("a3a100cec5fd39c002aad011e85d2dea")
 
@@ -86,7 +87,7 @@ def keywords(id):
 		for j in range (len(elem)):
 			if elem[j] not in keys1:
 				keys1.append(elem[j])
-	sorted(keys1)
+	random.shuffle(keys1)
 	return(keys1[0:4])
 
 def gameslist_keywords(gameslist, keywords):
@@ -111,7 +112,7 @@ def compare_gameslist(gameslist1, gameslist2):
 
 def finalgames(gameslist):
 	#gameslist1 = gameslist[0:len(gameslist):len(gameslist)//4]
-	sorted(gameslist)
+	random.shuffle(gameslist)
 	gameslist = gameslist[0:5]
 	#gameslist1.append(gameslist[1:2])
 	#gameslist1.append(gameslist[((len(gameslist)//2)-1), len(gameslist)//2])
