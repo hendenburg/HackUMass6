@@ -15,6 +15,7 @@
     $first = $_POST["FirstGame"];
     $second = $_POST["SecondGame"];
     $third = $_POST["ThirdGame"];
+        
     $command = escapeshellcmd("python gametime.py $first $second $third");
     $output = exec($command);
     echo "<p style='font-family: aglet-slab; font-size: 90px; padding: 100px; color: white;'>".$output."</p>";

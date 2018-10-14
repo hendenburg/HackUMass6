@@ -18,9 +18,9 @@
     
     <div>
         <form action="page7.php" method="post">
-        <center><h2 id="subheader">Last but not least.<br><br><strong>What are your 3 most favorite games to play?</strong><br><br>1.&nbsp<input type="text" name="FirstGame"><br>
+        <center><h2 id="subheader">Last but not least.<br><br><strong>What are your 3 most favorite games to play?</strong><br><br>1.&nbsp<input type="text" name="FirstGame"><br><br>
         
-        2. <input type="text" name="SecondGame"><br>
+        2. <input type="text" name="SecondGame"><br><br>
         3. <input type="text" name="ThirdGame"><br>
     <br>
     <br>

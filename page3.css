@@ -26,3 +26,9 @@ body {
     height: 50px;
     padding: 20px;
 }
+
+#genres {
+    font-family: aglet-slab;
+    color: white;
+    font-weight: normal;
+}

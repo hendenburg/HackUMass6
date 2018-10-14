@@ -20,10 +20,10 @@
         <center><h2 id="subheader">Awesome! Now we’re going to ask just a few questions about genre.<br><br><strong>What genre's do you enjoy most?</strong></h2>
 
 </strong></h2></center>
-    <div><center>
-        1. <input type="text" firstgame="FirstName" value=""><br><br>
-        2. <input type="text" secondgame="FirstName" value=""><br><br>
-        3. <input type="text" thirdgame="FirstName" value=""><br></center>
+    <div id="genres"><center>
+        <font face="aglet-slab" color="white">1.</font><input type="text" firstgame="FirstName" value=""><br><br>
+        <font face="aglet-slab" color="white">2.</font><input type="text" secondgame="FirstName" value=""><br><br>
+        <font face="aglet-slab" color="white">3.</font><input type="text" thirdgame="FirstName" value=""><br></center>
     <br>
     <br>
     <br>
