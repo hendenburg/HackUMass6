@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from igdb_api_python.igdb import igdb
 import sys
 import random
@@ -138,7 +140,7 @@ def main(fav1, fav2, fav3):
 	gameslist3 = compare_gameslist(gameslist1, gameslist2)
 	finalgnames = finalgames(gameslist3)
 	print ("")
-	for game in finalgnames:
-		print(game)
+	print (finalgnames[0] + " | " + finalgnames[1] 
+           + " | " + finalgnames[2] + " | " + finalgnames[3] + " | " + finalgnames[4])
 
 main(sys.argv[1], sys.argv[2], sys.argv[3])
